@@ -1,0 +1,20 @@
+{
+    "name": "Verilog Course",
+
+    "dockerComposeFile": "compose.yaml",
+    "service": "verilog",
+
+    "workspaceFolder": "/workspace",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mshr-h.veriloghdl",
+                "ms-vscode.makefile-tools",
+                "ms-python.python"
+            ]
+        }
+    },
+
+    "remoteUser": "root"
+}
